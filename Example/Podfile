@@ -1,16 +1,11 @@
 
-platform :ios, '12.0'
+platform :ios, '13.0'
 
 use_frameworks!
 
 target 'DuckUI_Example' do
   pod 'ReactiveKit'
-  pod 'Bond', '~> 7.6.6'
   pod 'Layoutless'
-  pod 'TinyConstraints', '~> 4.0.1'
-  pod 'RSKPlaceholderTextView', '~> 6.0.3'
-  pod 'JGProgressHUD', '~> 2.1'
-  pod 'Kingfisher', '~> 5.13.2'
   pod 'DuckUI', :path => '../'
 
   target 'DuckUI_Tests' do
